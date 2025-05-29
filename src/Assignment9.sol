@@ -1,7 +1,3 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
-
-import "@openzeppelin/contracts/access/Ownable.sol";
 
 // Inherit from Ownable contract
 contract Assignment9 is Ownable {
@@ -9,7 +5,7 @@ contract Assignment9 is Ownable {
     address[] public deployedContracts;
 
     // Call Ownable constructor from OpenZeppelin
-  constructor(address initialOwner) Ownable(initialOwner) {}
+   constructor(address initialOwner) Ownable(initialOwner) {}
 
 
     // Factory function to deploy new instances of `SimpleContract`
